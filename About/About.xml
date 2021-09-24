@@ -8,7 +8,7 @@
 		<li>1.3</li>
 	</supportedVersions>
 	<packageId>Flixbox.AnyHairBeardTattooForCactaceae</packageId>
-	<description>Adds recipes to convert dirt from Fertile Fields and Simply Soil.</description>
+	<description>Patches the Cactaceae mod to allow any hard, beard and tattoo. Make sure to enable them in your ideology. Use development mode if necessary.</description>
 	<modDependencies>
 		<li>
 			<packageId>mlie.cactaceae</packageId>
