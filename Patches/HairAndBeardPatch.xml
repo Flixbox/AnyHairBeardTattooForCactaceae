@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Cactaceae (Continued)</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Cactoid"]/alienRace/styleSettings</xpath>
+            <value>
+                <styleSettings>
+                    <li>
+                        <key>HairDef</key>
+                        <value>
+                            <hasStyle>true</hasStyle>
+                        </value>
+                    </li>
+                    <li>
+                        <key>BeardDef</key>
+                        <value>
+                            <hasStyle>true</hasStyle>
+                        </value>
+                    </li>
+                    <li>
+                        <key>TattooDef</key>
+                        <value>
+                            <hasStyle>true</hasStyle>
+                        </value>
+                    </li>
+                </styleSettings>
+            </value>
+        </match>
+    </Operation>
+</Patch>
